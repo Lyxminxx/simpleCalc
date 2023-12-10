@@ -1,6 +1,6 @@
-firstNum = int(input("Enter FIRST Number: "))
+firstNum = float(input("Enter FIRST Number: "))
 type = input("choose between +, -, *, / : ")
-secondNum = int(input("Enter SECOND Number: "))
+secondNum = float(input("Enter SECOND Number: "))
 
 if type == "+":
     print(firstNum+secondNum)
